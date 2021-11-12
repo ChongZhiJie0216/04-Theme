@@ -1,0 +1,15 @@
+.titleBar-AC4pGV .wordmark-2iDDfm::after {
+    font-family: cursive;
+    letter-spacing: 1px;
+    content: var(--window-name);
+    position: absolute;
+    background: var(--window-name-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-size: 15px;
+    font-weight: bold;
+    top: 5px;
+    left: 5px;
+    width: 250px;
+}

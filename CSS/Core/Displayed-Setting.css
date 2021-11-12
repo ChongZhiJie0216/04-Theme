@@ -1,0 +1,35 @@
+/* USER SETTINGS */
+.layer-3QrUeG[aria-label="USER_SETTINGS"] .side-8zPYf6 > .header-2RyJ0Y:first-child,
+.layer-3QrUeG[aria-label="USER_SETTINGS"] .side-8zPYf6 > .header-2RyJ0Y:first-child ~ * {
+    order: 0;
+}
+/* BETTERDISCORD SETTINGS */
+.layer-3QrUeG[aria-label="USER_SETTINGS"] .side-8zPYf6 > .header-2RyJ0Y:first-child ~ .separator-gCa7yv ~ .separator-gCa7yv ~ .separator-gCa7yv ~ .separator-gCa7yv,
+.layer-3QrUeG[aria-label="USER_SETTINGS"] .side-8zPYf6 > .header-2RyJ0Y:first-child ~ .separator-gCa7yv ~ .separator-gCa7yv ~ .separator-gCa7yv ~ .separator-gCa7yv ~ * {
+    order: -1;
+}
+/* CHANGELOG/HYPESQUAD/DEVELOPER */
+.layer-3QrUeG[aria-label="USER_SETTINGS"] .side-8zPYf6 > .header-2RyJ0Y:first-child ~ .separator-gCa7yv ~ .separator-gCa7yv ~ .separator-gCa7yv ~ .separator-gCa7yv ~ .separator-gCa7yv,
+.layer-3QrUeG[aria-label="USER_SETTINGS"] .side-8zPYf6 > .header-2RyJ0Y:first-child ~ .separator-gCa7yv ~ .separator-gCa7yv ~ .separator-gCa7yv ~ .separator-gCa7yv ~ .separator-gCa7yv ~ * {
+    order: 5;
+}
+/* LOGOUT */
+.layer-3QrUeG[aria-label="USER_SETTINGS"] .side-8zPYf6 > .header-2RyJ0Y:first-child ~ .separator-gCa7yv ~ .separator-gCa7yv ~ .separator-gCa7yv ~ .separator-gCa7yv ~ .separator-gCa7yv ~ .separator-gCa7yv,
+.layer-3QrUeG[aria-label="USER_SETTINGS"] .side-8zPYf6 > .header-2RyJ0Y:first-child ~ .separator-gCa7yv ~ .separator-gCa7yv ~ .separator-gCa7yv ~ .separator-gCa7yv ~ .separator-gCa7yv ~ .separator-gCa7yv ~ * {
+    order: 6;
+}
+/* APP SETTINGS */
+.layer-3QrUeG[aria-label="USER_SETTINGS"] .side-8zPYf6 > .header-2RyJ0Y:first-child ~ .separator-gCa7yv ~ .separator-gCa7yv,
+.layer-3QrUeG[aria-label="USER_SETTINGS"] .side-8zPYf6 > .header-2RyJ0Y:first-child ~ .separator-gCa7yv ~ .separator-gCa7yv ~ * {
+    order: 0;
+}
+/* ACTIVITY SETTINGS */
+.layer-3QrUeG[aria-label="USER_SETTINGS"] .side-8zPYf6 > .header-2RyJ0Y:first-child ~ .separator-gCa7yv ~ .separator-gCa7yv ~ .separator-gCa7yv,
+.layer-3QrUeG[aria-label="USER_SETTINGS"] .side-8zPYf6 > .header-2RyJ0Y:first-child ~ .separator-gCa7yv ~ .separator-gCa7yv ~ .separator-gCa7yv ~ * {
+    order: 4;
+}
+.header-2RyJ0Y {
+  color: rgb(78, 77, 77);
+  font-weight: bolder;
+  font-size: 12px;
+}

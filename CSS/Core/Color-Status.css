@@ -1,0 +1,19 @@
+rect[fill^="hsl(262,"] {
+    fill: purple
+}
+
+rect[fill^="hsl(139,"] {
+    fill: lime
+}
+
+rect[fill^="hsl(38,"] {
+    fill: yellow
+}
+
+rect[fill^="hsl(359,"] {
+    fill: red
+}
+
+rect[fill^="hsl(214,"] {
+    fill: white
+}
