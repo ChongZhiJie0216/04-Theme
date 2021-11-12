@@ -19,6 +19,17 @@
 @import url(https://chongzhijie0216.github.io/04-Theme/CSS/Core/Settings-Animated.css);
 @import url(https://chongzhijie0216.github.io/04-Theme/CSS/Core/Windows-Name.css);
 
+/*Extention*/
+@import url(https://chongzhijie0216.github.io/04-Theme/CSS/Extention/Rainbow-Wave-USERID.css);
+@import url(https://chongzhijie0216.github.io/04-Theme/CSS/Extention/Disable-Mirror-Your-Camera.css);
+@import url(https://chongzhijie0216.github.io/04-Theme/CSS/Extention/Embed-Redesign.css);
+@import url(https://chongzhijie0216.github.io/04-Theme/CSS/Extention/Role-Color-Background-Member-List.css);
+@import url(https://chongzhijie0216.github.io/04-Theme/CSS/Extention/Role-Color-Background-Role-Management.css);
+@import url(https://chongzhijie0216.github.io/04-Theme/CSS/Extention/Role-Color-Background-User-Roles.css);
+@import url(https://chongzhijie0216.github.io/04-Theme/CSS/Extention/Show-Discord-Disable-Internet.css);
+@import url(https://chongzhijie0216.github.io/04-Theme/CSS/Extention/UsernameBackground.css);
+
+
 
 /* Any images you use MUST end with .jpg or .png or any other image extension */
 
@@ -50,7 +61,7 @@
     /*
     Theme Setting(Base.css)
     */
-    
+
     /*Theme Background*/
     --theme-background-image: url(https://i.imgur.com/j1Z6HVc.jpg);
     /*Main Theme Color*/
