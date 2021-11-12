@@ -9,9 +9,48 @@
 */
 /*Core*/
 @import url(https://chongzhijie0216.github.io/04-Theme/CSS/Core/Base.css);
+@import url(https://chongzhijie0216.github.io/04-Theme/CSS/Core/Channel-List.css);
+@import url(https://chongzhijie0216.github.io/04-Theme/CSS/Core/Color-Status.css);
+@import url(https://chongzhijie0216.github.io/04-Theme/CSS/Core/Displayed-Setting.css);
+@import url(https://chongzhijie0216.github.io/04-Theme/CSS/Core/Profile-Connection-Borders.css);
+@import url(https://chongzhijie0216.github.io/04-Theme/CSS/Core/RadialStatus.css);
+@import url(https://chongzhijie0216.github.io/04-Theme/CSS/Core/Setting-Icon.css);
+@import url(https://chongzhijie0216.github.io/04-Theme/CSS/Core/Setting-Layer.css);
+@import url(https://chongzhijie0216.github.io/04-Theme/CSS/Core/Settings-Animated.css);
+@import url(https://chongzhijie0216.github.io/04-Theme/CSS/Core/Windows-Name.css);
+
+
 /* Any images you use MUST end with .jpg or .png or any other image extension */
 
 :root {
+    /*Windows-Names*/
+    --window-name: "04-Customize-Themes";
+    --window-name-color: rgb(255, 255, 255);
+    /*Setting-Icon*/
+    --usesettingsicons: calc(var(--settingsicons, 1) / (var(--settingsicons, 1) + 0.00000000000000000000001));
+    --settingsiconssize: 18px;
+    --settingsiconsgap: 14px;
+    /*RadialStatus*/
+    --rs-small-spacing: 2px;
+    --rs-medium-spacing: 3px;
+    --rs-large-spacing: 4px;
+    --rs-small-width: 2px;
+    --rs-medium-width: 3px;
+    --rs-large-width: 4px;
+    --rs-avatar-shape: 50%;
+    --rs-online-color: #43b581;
+    --rs-idle-color: #faa61a;
+    --rs-dnd-color: #f04747;
+    --rs-offline-color: #636b75;
+    --rs-streaming-color: #643da7;
+    --rs-invisible-color: #747f8d;
+    --rs-phone-color: var(--rs-online-color);
+    --rs-phone-visible: block;
+
+    /*
+    Theme Setting(Base.css)
+    */
+    
     /*Theme Background*/
     --theme-background-image: url(https://i.imgur.com/j1Z6HVc.jpg);
     /*Main Theme Color*/
@@ -107,4 +146,7 @@
     --reaction-emoji-border-color: 1px solid transparent;
     --reaction-emoji-hover-background-color: rgba(255, 255, 255, 0.1);
     --reaction-emoji-hover-border-color: rgba(255, 255, 255, 0.2);
-  }
+    /*Setting-Layer*/
+    --width2: 60%;
+    --height2: 85%;
+    }
