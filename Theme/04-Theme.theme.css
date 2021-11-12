@@ -15,7 +15,6 @@
 @import url(https://chongzhijie0216.github.io/04-Theme/CSS/Core/Profile-Connection-Borders.css);
 @import url(https://chongzhijie0216.github.io/04-Theme/CSS/Core/RadialStatus.css);
 @import url(https://chongzhijie0216.github.io/04-Theme/CSS/Core/Setting-Icon.css);
-@import url(https://chongzhijie0216.github.io/04-Theme/CSS/Core/Setting-Layer.css);
 @import url(https://chongzhijie0216.github.io/04-Theme/CSS/Core/Settings-Animated.css);
 @import url(https://chongzhijie0216.github.io/04-Theme/CSS/Core/Windows-Name.css);
 
@@ -35,7 +34,7 @@
 
 :root {
     /*Windows-Names*/
-    --window-name: "04-Customize-Themes";
+    --window-name: "04-Themes";
     --window-name-color: rgb(255, 255, 255);
     /*Setting-Icon*/
     --usesettingsicons: calc(var(--settingsicons, 1) / (var(--settingsicons, 1) + 0.00000000000000000000001));
@@ -63,13 +62,13 @@
     */
 
     /*Theme Background*/
-    --theme-background-image: url(https://i.imgur.com/j1Z6HVc.jpg);
+    --theme-background-image: url(https://i.imgur.com/E7FIvnr.jpeg);
     /*Main Theme Color*/
     --main-theme-color: rgb(67, 181, 129);
     /*Main Theme Transparency*/
     --theme-transparency: rgba(0, 0, 0, 0.8);
     /*Home Icon Image*/
-    --home-icon-image: url(https://i.imgur.com/63g6Em8.jpg);
+    --home-icon-image: url(https://imgur.com/RGIgQwx.jpg);
     /*Change your friends icon image position*/
     --home-icon-image-position: center center;
     /*Change your friends icon image zoom*/
