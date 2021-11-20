@@ -1,0 +1,9 @@
+/* Removes Chatbox from channel that don't allow you to communicate */
+.channelTextAreaDisabled-8rmlrp, .channelTextAreaDisabled-8rmlrp > .scrollableContainer-2NUZem{
+  animation: nochat .000001ms forwards;
+}
+@keyframes nochat{
+  to{height: 0}
+}
+/* Removes Follow banner on bottom of channels */
+.wrapper-39oAo3 {display: none;}
