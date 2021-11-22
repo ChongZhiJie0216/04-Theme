@@ -1,4 +1,4 @@
-connectedAccountIcon-3_EQqg ~ div::before {
+.connectedAccountIcon-3_EQqg ~ div::before {
     content: "";
     top: 0; bottom: 0; left: 0; right: 0;
     border: 1px solid var(--border-color);
