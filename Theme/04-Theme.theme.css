@@ -64,13 +64,13 @@
     */
 
     /*Theme Background*/
-    --theme-background-image: url(https://i.imgur.com/E7FIvnr.jpeg);
+    --theme-background-image:url(https://i.imgur.com/E7FIvnr.jpeg);
     /*Main Theme Color*/
     --main-theme-color: rgb(67, 181, 129);
     /*Main Theme Transparency*/
     --theme-transparency: rgba(0, 0, 0, 0.8);
     /*Home Icon Image*/
-    --home-icon-image: url(https://imgur.com/RGIgQwx.jpg);
+    --home-icon-image: url(https://imgur.com/r2LjV8e.jpg);
     /*Change your friends icon image position*/
     --home-icon-image-position: center center;
     /*Change your friends icon image zoom*/
