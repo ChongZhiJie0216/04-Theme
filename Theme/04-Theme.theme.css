@@ -10,6 +10,8 @@
 /*Core*/
 @import url(https://chongzhijie0216.github.io/04-Theme/CSS/Core/Base.css);
 @import url(https://chongzhijie0216.github.io/04-Theme/CSS/Core/Channel-List.css);
+@import url(https://chongzhijie0216.github.io/04-Theme/CSS/Core/Hide-User-Buttons-until-hover.css);
+@import url(https://chongzhijie0216.github.io/04-Theme/CSS/Core/Blur-Discord-when-not-focused.css);
 @import url(https://chongzhijie0216.github.io/04-Theme/CSS/Core/Color-Status.css);
 @import url(https://chongzhijie0216.github.io/04-Theme/CSS/Core/Displayed-Setting.css);
 @import url(https://chongzhijie0216.github.io/04-Theme/CSS/Core/Profile-Connection-Borders.css);
@@ -19,8 +21,6 @@
 @import url(https://chongzhijie0216.github.io/04-Theme/CSS/Core/Windows-Name.css);
 @import url(https://chongzhijie0216.github.io/04-Theme/CSS/Core/Custom-User-Popout.css);
 @import url(https://chongzhijie0216.github.io/04-Theme/CSS/Core/Removes-Chatbox-Channel-Communicate.css);
-@import url(https://chongzhijie0216.github.io/04-Theme/CSS/Core/Hide-User-Buttons-until-hover.css);
-@import url(https://chongzhijie0216.github.io/04-Theme/CSS/Core/Blur-Discord-when-not-focused.css);
 
 /*Extention*/
 @import url(https://chongzhijie0216.github.io/04-Theme/CSS/Extention/Rainbow-Wave-USERID.css);
@@ -31,8 +31,6 @@
 @import url(https://chongzhijie0216.github.io/04-Theme/CSS/Extention/Role-Color-Background-User-Roles.css);
 @import url(https://chongzhijie0216.github.io/04-Theme/CSS/Extention/Show-Discord-Disable-Internet.css);
 @import url(https://chongzhijie0216.github.io/04-Theme/CSS/Extention/UsernameBackground.css);
-
-
 
 /* Any images you use MUST end with .jpg or .png or any other image extension */
 
