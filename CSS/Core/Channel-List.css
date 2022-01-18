@@ -1,23 +1,34 @@
-.container-3baos1::before,
-.container-3w7J-x::before,
-.wrapper-24pKcD::before,
-.privateChannels-1nO12o::before {
-    display: flex !important;
-    flex-flow: column !important;
-}
-.container-3baos1::after,
-.container-3w7J-x::after,
-.wrapper-24pKcD::after,
-.privateChannels-1nO12o::after{
-    flex-flow: column;
-}
-.container-2baos1 {
-  order: 1;
-}
-.container-3w7J-x,
-.privateChannels-1nO12o {
-  order: 2;
-}
-.wrapper-24pKcD {
-    order: 3;
-}
+.container-YkUktl::before,.container-1NXEtd::before,.wrapper-3Hk9OB::before,.privateChannels-oVe7HL::before{display:flex!important;flex-flow:column!important}
+.container-YkUktl::after,.container-1NXEtd::after,.wrapper-3Hk9OB::after,.privateChannels-oVe7HL::after{flex-flow:column}
+.container-2baos1{order:1}
+.container-1NXEtd,.privateChannels-oVe7HL{order:2}
+.wrapper-3Hk9OB{order:3}
+.footer-1fjuF6{display:none}
+.content-1jQy2l:before{-webkit-box-shadow:none;box-shadow:none}
+.tabBody-2dgbAs:before{-webkit-box-shadow:none;box-shadow:none}
+.container-3u6dG-:before{-webkit-box-shadow:none;box-shadow:none}
+.container-xm7Ad0:before{-webkit-box-shadow:none;box-shadow:none}
+.header-3OsQeK{-webkit-box-shadow:none;box-shadow:none}
+.avatar-1EWyVD.spotify-cover{animation:rotate 3s infinite;-webkit-animation-timing-function:linear;border-radius:50%!important}
+.powercord-spotify{background-color:var(--background-tertiary);box-shadow:0 22px var(--background-primary);right:.4%;width:225px;bottom:22px;position:absolute}
+.powercord-spotify .spotify-buttons{display:none}
+.powercord-spotify.hover .spotify-buttons{display:flex!important}
+.spotify-seek-bar,.powercord-spotify .spotify-seek-bar-progress{height:3.8px!important}
+.panels-3wFtMD{background-color:var(--background-secondary)}
+.listDefault-2F-w65 .clickable-1ctZ-H.selected-1oxcpH .username-vAneIW,.usernameSpeaking-3FKv6H{color:rgba(var(--alt-color),9);filter:brightness(150%)}
+:root{--indicator-border-info:2px solid;--indicator-selected-border:rgba(var(--indicator-selected));--indicator-selected-background:rgba(var(--indicator-selected),0.1);--indicator-selected-hover:rgba(var(--indicator-selected),0.18);--indicator-unread-border:rgba(var(--indicator-unread),0.6);--indicator-unread-background:rgba(var(--indicator-unread),0.01);--indicator-connected-border:rgba(var(--indicator-connected));--indicator-connected-background:rgba(var(--indicator-connected),0.1);--indicator-connected-hover:rgba(var(--indicator-connected),0.18)}
+#app-mount .containerDefault-YUSmu3 .wrapper-NhbLHG,#app-mount .channel-1Shao0{border-radius:var(--indicator-rounding)!important}
+#app-mount .containerDefault-YUSmu3 .wrapper-NhbLHG::before,#app-mount .channel-1Shao0::before{content:"";position:absolute;top:0;left:0;bottom:0}
+#app-mount .content-1gYQeQ,#app-mount .channel-1Shao0 .layout-1qmrhw{background-color:transparent}
+#app-mount .containerDefault-YUSmu3 .wrapper-NhbLHG:not(.modeSelected-3DmyhH):not(.modeConnected-NrO4cP):hover,#app-mount .channel-1Shao0:not(.selected-1-Z6gm):hover{background:var(--indicator-hovered)}
+#app-mount .modeSelected-3DmyhH,#app-mount .channel-1Shao0.selected-1-Z6gm{background-color:var(--indicator-selected-background)}
+#app-mount .modeSelected-3DmyhH:hover,#app-mount .channel-1Shao0.selected-1-Z6gm:hover{background-color:var(--indicator-selected-hover)}
+#app-mount .modeSelected-3DmyhH::before,#app-mount .channel-1Shao0.selected-1-Z6gm::before{border-left:var(--indicator-border-info) var(--indicator-selected-border)}
+#app-mount .modeUnread-3Cxepe{background:var(--indicator-unread-background)}
+#app-mount .modeUnread-3Cxepe::before{border-left:var(--indicator-border-info) var(--indicator-unread-border)}
+#app-mount .modeUnread-3Cxepe .unread-36eUEm{display:none}
+#app-mount .modeConnected-NrO4cP{background-color:var(--indicator-connected-background)}
+#app-mount .modeConnected-NrO4cP:hover{background-color:var(--indicator-connected-hover)}
+#app-mount .modeConnected-NrO4cP::before{border-left:var(--indicator-border-info) var(--indicator-connected-border)}
+#app-mount .channel-1Shao0{margin-left:0;max-width:100%}
+#app-mount .channel-1Shao0 div .avatar-6qzftW{margin-left:8px}
