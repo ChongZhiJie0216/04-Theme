@@ -1,3 +1,17 @@
+/* 
+Source Owner URL
+GITHUB:https://github.com/leeprky/leeprky.github.io/tree/gh-pages/themes
+Source:https://leeprky.github.io/themes/WindowsXI/imports/compiled.css
+**/
+
+/**Don't Move*/
+.panels-3wFtMD,
+.sidebar-1tnWFu {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+/*Can Edited*/
 :root {
     --indicator-border-info: 2px solid;
     --indicator-selected-border: rgba(var(--indicator-selected));
@@ -82,8 +96,4 @@
     margin-left: 8px
 }
 
-.panels-3wFtMD,
-.sidebar-1tnWFu {
-    display: flex;
-    flex-direction: column-reverse;
-}
+
