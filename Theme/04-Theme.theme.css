@@ -1,14 +1,16 @@
 /**
  * @name 04-Themes
  * @author ChongZhiJie#0216
- * @version 1.6.0
+ * @version 2.0.0
  * @description Created by ChongZhiJie#0216 
  * @authorId 319445690700922880
- * @source
+ * @source https://github.com/ChongZhiJie0216/04-Theme
  * @updateUrl
 */
 /*Core*/
 @import url(https://chongzhijie0216.github.io/04-Theme/CSS/Core/Base.css);
+@import url(https://chongzhijie0216.github.io/04-Theme/CSS/Core/Channel-Bar.css);
+@import url(https://chongzhijie0216.github.io/04-Theme/CSS/Core/Background-Setting-Layer.css);
 @import url(https://chongzhijie0216.github.io/04-Theme/CSS/Core/Channel-List.css);
 @import url(https://chongzhijie0216.github.io/04-Theme/CSS/Core/Hide-User-Buttons-until-hover.css);
 @import url(https://chongzhijie0216.github.io/04-Theme/CSS/Core/MakeBD-Toasts-Discords.css);
@@ -16,7 +18,6 @@
 @import url(https://xhylo.github.io/BetterSettings/BetterSettings.css);
 @import url(https://chongzhijie0216.github.io/04-Theme/CSS/Core/Profile-Connection-Borders.css);
 @import url(https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css);
-@import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css);
 @import url(https://chongzhijie0216.github.io/04-Theme/CSS/Core/Settings-Animated.css);
 @import url(https://chongzhijie0216.github.io/04-Theme/CSS/Core/Removes-Chatbox-Channel-Communicate.css);
 @import url(https://chongzhijie0216.github.io/04-Theme/CSS/Core/Make-buttons-Gray.css);
