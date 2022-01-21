@@ -1,0 +1,11 @@
+/* Make green CTAs gray */
+.lookFilled-yCfaCM.colorGreen-3y-Z79 {
+    color: #fff;
+    background-color: var(--background-accent);
+    transition-property: filter, background-color;
+}
+
+.lookFilled-yCfaCM.colorGreen-3y-Z79:hover {
+    background-color: var(--background-accent);
+    filter: brightness(118%)
+}
