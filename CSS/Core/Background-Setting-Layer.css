@@ -671,13 +671,6 @@ div[aria-label=GUILD_SETTINGS] .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.it
     background-image: linear-gradient(to right, var(--themeColor1), var(--themeColor2))
 }
 
-.botTagInvert-1nKcq_,
-.botTagRegular-kpctgU {
-    background-color: var(--themeColor1);
-    border-radius: 50px !important;
-    color: #fff
-}
-
 .tabBar-ra-EuL .item-3mHhwr[style*="rgb(67, 181, 129)"] {
     background-color: var(--themeColor1);
     background-image: linear-gradient(to right, var(--themeColor1), var(--themeColor2));
