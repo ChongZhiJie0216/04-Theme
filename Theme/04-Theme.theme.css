@@ -1,7 +1,7 @@
 /**
  * @name 04-Themes
  * @author ChongZhiJie#0216
- * @version 2.0.0
+ * @version 2.1.0
  * @description Created by ChongZhiJie#0216 
  * @authorId 319445690700922880
  * @source https://github.com/ChongZhiJie0216/04-Theme
@@ -61,7 +61,9 @@
     --rs-invisible-color: #747f8d;
     --rs-phone-color: var(--rs-online-color);
     --rs-phone-visible: block;
-
+    /*Background Setting Layer*/
+    --BackgroundSettingLayer01: #36D1DC;
+    --BackgroundSettingLayer02: #5B86E5;
     /*
     Theme Setting(Base.css)
     */
