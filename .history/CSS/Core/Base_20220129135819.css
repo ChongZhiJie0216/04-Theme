@@ -8,7 +8,7 @@
     /*Main Theme Transparency*/
     --theme-transparency: rgba(0, 0, 0, 0.8);
     /*Home Icon Image*/
-    --home-icon-image: url(https://imgur.com/r2LjV8e.jpg);
+    --home-icon-image: url(https://i.imgur.com/63g6Em8.jpg);
     /*Change your friends icon image position*/
     --home-icon-image-position: center center;
     /*Change your friends icon image zoom*/
@@ -72,7 +72,7 @@
     --scrollbar-color: rgba(200, 200, 200, 0.2);
     /*Unread Message Divider*/
     --unread-message-divider-color: #f04747;
-    --unread-message-divider-font-color: #fff(93, 247, 22);
+    --unread-message-divider-font-color: rgb(93, 247, 22);
     /*New Messages Bar Color*/
     --new-messages-bar-background-color: #7289da;
     --new-messages-bar-font-color: #fff;

@@ -1,3 +1,4 @@
+
 @import url(https://puckzxz.github.io/NotAnotherAnimeTheme/build/v3/naat.v3.css);
 
 :root {
@@ -8,7 +9,7 @@
     /*Main Theme Transparency*/
     --theme-transparency: rgba(0, 0, 0, 0.8);
     /*Home Icon Image*/
-    --home-icon-image: url(https://imgur.com/r2LjV8e.jpg);
+    --home-icon-image: url(https://i.imgur.com/63g6Em8.jpg);
     /*Change your friends icon image position*/
     --home-icon-image-position: center center;
     /*Change your friends icon image zoom*/
@@ -72,7 +73,7 @@
     --scrollbar-color: rgba(200, 200, 200, 0.2);
     /*Unread Message Divider*/
     --unread-message-divider-color: #f04747;
-    --unread-message-divider-font-color: #fff(93, 247, 22);
+    --unread-message-divider-font-color: rgb(93, 247, 22);
     /*New Messages Bar Color*/
     --new-messages-bar-background-color: #7289da;
     --new-messages-bar-font-color: #fff;
@@ -90,7 +91,7 @@
     --text-voice-channel-color: rgb(142, 146, 151);
     --text-voice-channel-hover-color: #dcddde;
     --text-voice-channel-selected-text-color: #fff;
-    --unread-text-channel-color: rgb(11, 245, 70);
+    --unread-text-channel-color: rgb(255, 255, 255);
     --unread-text-channel-bubble-color: var(--main-theme-color);
     /*Folders*/
     --folder-background-color: #2f3136;
