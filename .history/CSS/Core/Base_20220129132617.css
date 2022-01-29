@@ -109,10 +109,13 @@
     --text-voice-channel-selected-text-color: #fff;
     --unread-text-channel-color: #fff;
     --unread-text-channel-bubble-color: var(--main-theme-color);
-    /*Folders*/
+/*Folders*/
     --folder-background-color: #2f3136;
     --expanded-folder-background-color: transparent;
-    /*Reactions*/
+
+    /*
+    Reactions
+  */
     --reaction-emoji-background-color: rgba(0, 0, 0, 0);
     --reaction-emoji-border-color: 1px solid transparent;
     --reaction-emoji-hover-background-color: rgba(255, 255, 255, 0.1);

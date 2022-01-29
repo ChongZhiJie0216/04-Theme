@@ -103,16 +103,25 @@
     --message-search-menu-background-color: rgba(0, 0, 0, 0.8);
     --message-search-container-background-color: rgba(0, 0, 0, 0.6);
     --message-search-result-background-color: rgba(200, 200, 200, 0.05);
-    /*Channel colors*/
+
+    /*
+    Channel colors
+  */
     --text-voice-channel-color: rgb(142, 146, 151);
     --text-voice-channel-hover-color: #dcddde;
     --text-voice-channel-selected-text-color: #fff;
     --unread-text-channel-color: #fff;
     --unread-text-channel-bubble-color: var(--main-theme-color);
-    /*Folders*/
+
+/*
+Folders
+  */
     --folder-background-color: #2f3136;
     --expanded-folder-background-color: transparent;
-    /*Reactions*/
+
+    /*
+    Reactions
+  */
     --reaction-emoji-background-color: rgba(0, 0, 0, 0);
     --reaction-emoji-border-color: 1px solid transparent;
     --reaction-emoji-hover-background-color: rgba(255, 255, 255, 0.1);

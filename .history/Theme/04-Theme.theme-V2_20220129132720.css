@@ -1,56 +1,82 @@
 /**
-* @name NotAnotherAnimeTheme
-* @author puckzxz#2080
-* @version 3.2
-* @description An easily customizable and automatically updating theme
-* @invite FdZhbjY
-* @source https://github.com/puckzxz/NotAnotherAnimeTheme
-* @updateUrl https://raw.githubusercontent.com/puckzxz/NotAnotherAnimeTheme/master/NotAnotherAnimeTheme.theme.css
+ * @name 04-Themes V2
+ * @author ChongZhiJie#0216
+ * @version 1.0.0
+ * @description Created by ChongZhiJie#0216 
+ * @authorId 319445690700922880
+ * @source https://github.com/ChongZhiJie0216/04-Theme
+ * @updateUrl
 */
+/*Core*/
+@import url(https://chongzhijie0216.github.io/04-Theme/CSS/Core/Base.css);
 
-@import url(https://puckzxz.github.io/NotAnotherAnimeTheme/build/v3/naat.v3.css);
 
-/*
-  To make editing this theme easier I recommend using Notepad++
-  you can download it for free here https://notepad-plus-plus.org/download/
-*/
+
+/*Extention*/
+
 
 /* Any images you use MUST end with .jpg or .png or any other image extension */
 
 :root {
+    /*Windows-Names*/
+    --window-name: "04-Themes";
+    --window-name-color: rgb(255, 255, 255);
+    /*Setting-Icon*/
+    --usesettingsicons: calc(var(--settingsicons, 1) / (var(--settingsicons, 1) + 0.00000000000000000000001));
+    --settingsiconssize: 18px;
+    --settingsiconsgap: 14px;
+    /*RadialStatus*/
+    --rs-small-spacing: 2px;
+    --rs-medium-spacing: 3px;
+    --rs-large-spacing: 4px;
+    --rs-small-width: 2px;
+    --rs-medium-width: 3px;
+    --rs-large-width: 4px;
+    --rs-avatar-shape: 50%;
+    --rs-online-color: #43b581;
+    --rs-idle-color: #faa61a;
+    --rs-dnd-color: #f04747;
+    --rs-offline-color: #636b75;
+    --rs-streaming-color: #643da7;
+    --rs-invisible-color: #747f8d;
+    --rs-phone-color: var(--rs-online-color);
+    --rs-phone-visible: block;
+    /*Background Setting Layer*/
+    --BackgroundSettingLayer01: #36D1DC;
+    --BackgroundSettingLayer02: #5B86E5;
+    /*
+    Theme Setting(Base.css)
+    */
+
     /*Theme Background*/
-    --theme-background-image: url(https://i.imgur.com/j1Z6HVc.jpg);
+    --theme-background-image:url(https://i.imgur.com/E7FIvnr.jpeg);
     /*Main Theme Color*/
     --main-theme-color: rgb(67, 181, 129);
     /*Main Theme Transparency*/
     --theme-transparency: rgba(0, 0, 0, 0.8);
     /*Home Icon Image*/
-    --home-icon-image: url(https://i.imgur.com/63g6Em8.jpg);
+    --home-icon-image: url(https://imgur.com/r2LjV8e.jpg);
     /*Change your friends icon image position*/
     --home-icon-image-position: center center;
     /*Change your friends icon image zoom*/
     --home-icon-image-zoom: 100%;
     /*
-    Server Listing Width
-    Single Column:  72px
-    Double Column:  126px
-    Triple Column:  184px
-    Quad Column:    242px
+      Server Listing Width
+      Single Column:  72px
+      Double Column:  126px
+      Triple Column:  184px
+      Quad Column:    242px
     */
     --server-listing-width: 126px;
     /*Font Size*/
     --font-size: 100%;
-    /*
-    Mention colors*/
+    /*Mention colors*/
     --mention-color: rgba(250, 166, 26, 0.05);
     --mention-sider: rgba(250, 166, 26, 1);
     --mention-hover-color: rgba(250, 166, 26, 0.08);
     /*Server category hover color*/
     --category-hover-color: rgb(60, 202, 138);
-    /*
-    Change the unread server animation.
-    Replace it with "none" in order to remove any animations and use the main color instead
-  */
+    /*Change the unread server animation.Replace it with "none" in order to remove any animations and use the main color instead*/
     --unread-server-animation: rainbow;
     /*Video / Screen share buttons*/
     --video-screen-button-background-color: rgba(200, 200, 200, 0.2);
@@ -89,7 +115,7 @@
     --scrollbar-color: rgba(200, 200, 200, 0.2);
     /*Unread Message Divider*/
     --unread-message-divider-color: #f04747;
-    --unread-message-divider-font-color: rgb(93, 247, 22);
+    --unread-message-divider-font-color: #fff;
     /*New Messages Bar Color*/
     --new-messages-bar-background-color: #7289da;
     --new-messages-bar-font-color: #fff;
@@ -117,4 +143,7 @@
     --reaction-emoji-border-color: 1px solid transparent;
     --reaction-emoji-hover-background-color: rgba(255, 255, 255, 0.1);
     --reaction-emoji-hover-border-color: rgba(255, 255, 255, 0.2);
-}
+    /*Setting-Layer*/
+    --width2: 60%;
+    --height2: 85%;
+    }
