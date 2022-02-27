@@ -135,7 +135,7 @@
     --scrollbar-color: rgba(200, 200, 200, 0.2);
     /*Unread Message Divider*/
     --unread-message-divider-color: #f04747;
-    --unread-message-divider-font-color: #fff;
+    --unread-message-divider-font-color:  rgba(232,14,14,1);
     /*New Messages Bar Color*/
     --new-messages-bar-background-color: #7289da;
     --new-messages-bar-font-color: #fff;
@@ -153,7 +153,7 @@
     --text-voice-channel-color: rgb(142, 146, 151);
     --text-voice-channel-hover-color: #dcddde;
     --text-voice-channel-selected-text-color: #fff;
-    --unread-text-channel-color: #fff;
+    --unread-text-channel-color: rgb(227, 243, 3);
     --unread-text-channel-bubble-color: var(--main-theme-color);
     /*Folders*/
     --folder-background-color: #2f3136;

@@ -1,5 +1,5 @@
 /**
- * @name 04-Themes V2
+ * @name 04-Themes V3
  * @author ChongZhiJie#0216
  * @version 1.0.0
  * @description Created by ChongZhiJie#0216 
@@ -7,8 +7,6 @@
  * @source https://github.com/ChongZhiJie0216/04-Theme
  * @updateUrl
 */
-/*Core*/
-@import url(https://chongzhijie0216.github.io/04-Theme/CSS/Core/Base.css);
 @import url(https://chongzhijie0216.github.io/04-Theme/CSS/Core/Channel-List.css);
 @import url(https://chongzhijie0216.github.io/04-Theme/CSS/Core/Color-Status.css);
 @import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css);
@@ -16,17 +14,18 @@
 @import url(https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css);
 @import url(https://chongzhijie0216.github.io/04-Theme/CSS/Core/Settings-Animated.css);
 @import url(https://chongzhijie0216.github.io/04-Theme/CSS/Core/Removes-Chatbox-Channel-Communicate.css);
-@import url(https://maendisease.github.io/BetterDiscordStuff/css/storeCSS.css);
+@import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/ServerColumns/ServerColumns.css);
 
 /*Extention*/
 @import url(https://chongzhijie0216.github.io/04-Theme/CSS/Extention/Disable-Mirror-Your-Camera.css);
 @import url(https://chongzhijie0216.github.io/04-Theme/CSS/Extention/Embed-Redesign.css);
-@import url(https://thecommieaxolotl.github.io/BetterDiscord-Stuff/Imports/DiscordLinks.css);
-
-
-/* Any images you use MUST end with .jpg or .png or any other image extension */
 
 :root {
+    /*ServerColumns*/
+    --columns: 2;
+    --guildsize: 50;
+    --guildgap: 2;
+    --aligndms: 1;
     /*RadialStatus*/
     --rs-small-spacing: 2px;
     --rs-medium-spacing: 3px;
@@ -46,5 +45,3 @@
     /*Setting-Layer*/
     --width2: 60%;
     --height2: 85%;
-    /*test*/
-    }
