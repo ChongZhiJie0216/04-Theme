@@ -8,7 +8,6 @@
  * @updateUrl
 */
 /*Core*/
-@import url(https://chongzhijie0216.github.io/04-Theme/CSS/Core/ThemeFixer.css);
 @import url(https://chongzhijie0216.github.io/04-Theme/CSS/Core/Base.css);
 @import url(https://chongzhijie0216.github.io/04-Theme/CSS/Core/Channel-List.css);
 @import url(https://chongzhijie0216.github.io/04-Theme/CSS/Core/Color-Status.css);
@@ -17,12 +16,13 @@
 @import url(https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css);
 @import url(https://chongzhijie0216.github.io/04-Theme/CSS/Core/Settings-Animated.css);
 @import url(https://chongzhijie0216.github.io/04-Theme/CSS/Core/Removes-Chatbox-Channel-Communicate.css);
+@import url(https://maendisease.github.io/BetterDiscordStuff/css/bdAddonMini.css);
 @import url(https://maendisease.github.io/BetterDiscordStuff/css/storeCSS.css);
+
 
 /*Extention*/
 @import url(https://chongzhijie0216.github.io/04-Theme/CSS/Extention/Disable-Mirror-Your-Camera.css);
 @import url(https://chongzhijie0216.github.io/04-Theme/CSS/Extention/Embed-Redesign.css);
-@import url(https://thecommieaxolotl.github.io/BetterDiscord-Stuff/Imports/DiscordLinks.css);
 
 
 /* Any images you use MUST end with .jpg or .png or any other image extension */
