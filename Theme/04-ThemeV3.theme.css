@@ -1,7 +1,7 @@
 /**
  * @name 04-Themes V3
  * @author ChongZhiJie#0216
- * @version 1.0.0
+ * @version 1.2.0
  * @description Created by ChongZhiJie#0216 
  * @authorId 319445690700922880
  * @source https://github.com/ChongZhiJie0216/04-Theme
@@ -16,7 +16,9 @@
 @import url(https://chongzhijie0216.github.io/04-Theme/CSS/Core/Removes-Chatbox-Channel-Communicate.css);
 @import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/ServerColumns/ServerColumns.css);
 @import url(https://maendisease.github.io/BetterDiscordStuff/css/bdAddonMini.css);
-@import url(https://maendisease.github.io/BetterDiscordStuff/css/storeCSS.css);
+@import url(https://maendisease.github.io/BetterDiscordStuff/css/wellThisIsAwkwardSoTryThis.css);
+@import url(https://neodymium7.github.io/BetterDiscordStuff/CSS/AddServerDarkMode.css);
+/*@import url(https://maendisease.github.io/BetterDiscordStuff/css/storeCSS.css);*/
 
 
 /*Extention*/
