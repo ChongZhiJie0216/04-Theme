@@ -9,9 +9,10 @@
 **/
 
 @import url('https://luckfire.github.io/amoled-cord/src/support/betterdiscord/compiled.css');
+@import url("https://thecommieaxolotl.github.io/BetterDiscord-Stuff/Imports/Touchup.css");
 @import url(https://chongzhijie0216.github.io/04-Theme/CSS/Core/Channel-List.css);
 @import url(https://chongzhijie0216.github.io/04-Theme/CSS/Core/Color-Status.css);
-@import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css);
+/*@import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css);*/
 @import url(https://xhylo.github.io/BetterSettings/BetterSettings.css);
 @import url(https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css);
 @import url(https://chongzhijie0216.github.io/04-Theme/CSS/Core/Settings-Animated.css);
