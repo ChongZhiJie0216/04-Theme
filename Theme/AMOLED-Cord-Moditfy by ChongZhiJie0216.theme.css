@@ -21,9 +21,10 @@
 @import url(https://maendisease.github.io/BetterDiscordStuff/css/bdAddonMini.css);
 @import url(https://maendisease.github.io/BetterDiscordStuff/css/wellThisIsAwkwardSoTryThis.css);
 @import url(https://neodymium7.github.io/BetterDiscordStuff/CSS/AddServerDarkMode.css);
-@import url('https://mr-miner1.github.io/Better-Badges/src/badges.css');
+@import url(https://mr-miner1.github.io/Better-Badges/src/badges.css);
 @import url(https://dablulite.github.io/accountdetailscolumns/import.css);
 @import url(https://dablulite.github.io/redesigneduserareas/import.css);
+@import url(https://maendisease.github.io/BetterDiscordStuff/css/ProfileBannerSkins.css);
 
 
 
@@ -31,6 +32,11 @@
 /*Extention*/
 @import url(https://chongzhijie0216.github.io/04-Theme/CSS/Extention/Disable-Mirror-Your-Camera.css);
 @import url(https://chongzhijie0216.github.io/04-Theme/CSS/Extention/Embed-Redesign.css);
+@import url(https://chongzhijie0216.github.io/04-Theme/CSS/Extention/Role-Color-Background-Member-List.css);
+@import url(https://chongzhijie0216.github.io/04-Theme/CSS/Extention/Role-Color-Background-Role-Management.css);
+@import url(https://chongzhijie0216.github.io/04-Theme/CSS/Extention/Role-Color-Background-User-Roles.css);
+@import url(https://chongzhijie0216.github.io/04-Theme/CSS/Extention/UsernameBackground.css);
+
 
 :root {
     --badge-size: 22px;/*discord defualt = 18px, theme defualt = 22px;*/
@@ -102,4 +108,5 @@
     --background-accent-1: rgb(15, 15, 15, 0.1);
     --background-accent-3: rgb(15, 15, 15, 0.3);
     --background-floating-2: rgba(0, 0, 0, 0.2);
+
 }
