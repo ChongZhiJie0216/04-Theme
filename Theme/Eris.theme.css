@@ -1,0 +1,54 @@
+/**
+ * @name Eris
+ * @author Rock#5429
+ * @version 1.3
+ * @description A darker, cooler, classier look for Discord.
+ * @source https://github.com/RockESV/Eris
+*/
+@import url("https://rockesv.github.io/Eris/ErisSource.css");
+@import url(https://chongzhijie0216.github.io/04-Theme/CSS/Core/Channel-List.css);
+@import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css);
+@import url(https://xhylo.github.io/BetterSettings/BetterSettings.css);
+@import url(https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css);
+@import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/ServerColumns/ServerColumns.css);
+@import url(https://dablulite.github.io/accountdetailscolumns/import.css);
+@import url(https://dablulite.github.io/redesigneduserareas/import.css);
+@import url(https://maendisease.github.io/BetterDiscordStuff/css/ProfileBannerSkins.css);
+
+/*Extention*/
+@import url(https://chongzhijie0216.github.io/04-Theme/CSS/Extention/Disable-Mirror-Your-Camera.css);
+@import url(https://chongzhijie0216.github.io/04-Theme/CSS/Extention/Embed-Redesign.css);
+@import url(https://chongzhijie0216.github.io/04-Theme/CSS/Extention/Role-Color-Background-Member-List.css);
+@import url(https://chongzhijie0216.github.io/04-Theme/CSS/Extention/Role-Color-Background-Role-Management.css);
+@import url(https://chongzhijie0216.github.io/04-Theme/CSS/Extention/Role-Color-Background-User-Roles.css);
+@import url(https://chongzhijie0216.github.io/04-Theme/CSS/Extention/UsernameBackground.css);
+
+:root {
+  --badge-size: 22px;/*discord defualt = 18px, theme defualt = 22px;*/
+  --badge-margin: 1.5px;/*discord default = 2px, theme defualt = 1.5px*/
+  --badges-everywhere-size: 15px;/*default = 15px*/
+  /*ServerColumns*/
+  --columns: 2;
+  --guildsize: 50;
+  --guildgap: 2;
+  --aligndms: 1;
+   /*RadialStatus*/
+  --rs-small-spacing: 2px;
+  --rs-medium-spacing: 3px;
+  --rs-large-spacing: 4px;
+  --rs-small-width: 2px;
+  --rs-medium-width: 3px;
+  --rs-large-width: 4px;
+  --rs-avatar-shape: 50%;
+  --rs-online-color: #43b581;
+  --rs-idle-color: #faa61a;
+  --rs-dnd-color: #f04747;
+  --rs-offline-color: #636b75;
+  --rs-streaming-color: #643da7;
+  --rs-invisible-color: #747f8d;
+  --rs-phone-color: var(--rs-online-color);
+  --rs-phone-visible: block;
+  /*Setting-Layer*/
+  --width2: 60%;
+  --height2: 85%;
+}
