@@ -1,0 +1,50 @@
+/**
+ * @name Miku2021
+ * @author puckzxz#2080
+ * @version 2.2
+ * @description это тема принадлежит Хацкер228, ЕСЛИ СПИЗДИШЬ ТЕМУ, Я ТЕБЕ ЕБАЛО НАБЬЮ, В ДОБАВОК ОТ МИКУ ПОЛУЧИШЬ)
+ * @invite FdZhbjY
+ * @source https://github.com/puckzxz/NotAnotherAnimeTheme
+*/
+
+@import url('https://puckzxz.github.io/NotAnotherAnimeTheme/css/scsl.css');
+@import url('https://gibbu.github.io/BetterDiscord-Themes/HorizontalServerlist/base.css');
+@import url('https://gibbu.github.io/BetterDiscord-Themes/RadialStatus/base.css');
+@import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/ServerColumns/ServerColumns.css);
+
+:root {
+  /*ServerColumns*/
+  --columns: 2;
+  --guildsize: 50;
+  --guildgap: 2;
+  --aligndms: 1;
+  /*Miku2021*/
+  --background-image: url('https://i.imgur.com/u50mgLk.jpg');
+  --friends-icon: url('https://avatarfiles.alphacoders.com/102/102236.jpg');
+  --friends-icon-zoom: 112%;
+  --friends-icon-position: center center;
+  --main-color: rgb(66,201,197);
+  --main-transparency: rgba(0,0,0,0.8);
+  --hover-list-bg-color: rgba(0,0,0,0.22);
+  --border-lines-color: rgba(0,0,0,0.1);
+  --scroll-bar-color: rgba(221,221,221,0.74);
+  --selected-text-voice-color: #ffffff;
+  --channel-hover-text-color: rgba(76,219,211,0.75);
+  --unread-text-color: rgba(47,201,202,0.96);
+  --user-popup-background: rgba(0,0,0,0.8);
+  --font-size: 16px;
+  --unread-server-animation: rainbow;
+  --HSL-server-icon-size: 40px;
+  --HSL-server-spacing: 10px;
+  --rs-small-spacing: 2px;
+  --rs-large-spacing: 3px;
+  --rs-width: 2px;
+  --rs-avatar-shape: 50%;
+  --rs-online-color: #43b581;
+  --rs-idle-color: #faa61a;
+  --rs-dnd-color: #f04747;
+  --rs-offline-color: #636b75;
+  --rs-streaming-color: #643da7;
+  --rs-invisible-color: #747f8d;
+  --interactive-normal: #09b5bb;
+}
