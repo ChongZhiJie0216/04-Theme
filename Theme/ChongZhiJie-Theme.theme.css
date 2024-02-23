@@ -1,14 +1,6 @@
 /**
  * @name ChongZhiJie-Theme
- * @author Gibbu#1211
- * @version 2.0.0
  * @description Display your picture of choice with adjustable blur and brightness.
- * @source https://github.com/DiscordStyles/FrostedGlass
- * @invite ZHthyCw
- * @donate https://paypal.me/IanRGibson
- * @website https://gibbu.me
- * @authorId 174868361040232448
- * @BDEditor Frosted Glass
 */
 @import url(https://discordstyles.github.io/FrostedGlass/dist/FrostedGlass.css);
 @import url(https://chongzhijie0216.github.io/04-Theme/CSS/Core/Channel-List.css);
@@ -30,8 +22,8 @@
   /*ServerColumns*/
   --columns: 2;
   --guildsize: 50;
-  --guildgap: 2;
-  --aligndms: 1;
+  --guildgap: 0;
+  --aligndms: 0;
   /*RadialStatus*/
   --rs-small-spacing: 2px;
   --rs-medium-spacing: 3px;
